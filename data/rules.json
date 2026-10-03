@@ -1,0 +1,318 @@
+[
+  {
+    "id": "R01",
+    "disease": "Acute hepatopancreatic necrosis",
+    "disease_vi": "Bệnh hoại tử gan tụy cấp (AHPND / EMS)",
+    "applicable_species": ["Tôm thẻ chân trắng", "Tôm sú", "Tôm càng xanh"],
+    "symptom_weights": {
+      "gan teo": 0.35,
+      "nhat mau": 0.20,
+      "ruot trong": 0.20,
+      "bo an": 0.10,
+      "lo do": 0.05
+    },
+    "water_conditions": {
+      "low_DO": 0.05,
+      "high_NH3_NO2": 0.05
+    },
+    "weather_conditions": {
+      "prolonged_heat_or_heavy_rain": 0.05
+    },
+    "base_threshold": 0.45,
+    "treatment": "Cắt giảm 50% thức ăn ngay lập tức. Bổ sung men vi sinh và khoáng chất bảo vệ gan tụy. Tạt vôi kiểm soát pH, xử lý triệt để bùn đáy và khí độc NH3/NO2."
+  },
+  {
+    "id": "R02",
+    "disease": "Black gill",
+    "disease_vi": "Bệnh đen mang do môi trường hoặc nấm",
+    "applicable_species": ["Tôm thẻ chân trắng", "Tôm sú", "Tôm càng xanh"],
+    "symptom_weights": {
+      "mang den": 0.40,
+      "mang nau": 0.25,
+      "dong rong": 0.15,
+      "kho tho": 0.10
+    },
+    "water_conditions": {
+      "high_NH3_NO2": 0.10,
+      "low_DO": 0.05
+    },
+    "weather_conditions": {
+      "prolonged_heat_or_heavy_rain": 0.05
+    },
+    "base_threshold": 0.45,
+    "treatment": "Tăng cường chạy quạt nước tạo oxy khẩn cấp. Xi-phông hút chất thải hữu cơ đáy ao, đánh chế phẩm vi sinh phân hủy bùn đáy và thay bớt nước tầng mặt nếu có điều kiện."
+  },
+  {
+    "id": "R03",
+    "disease": "Filamentous bacterial",
+    "disease_vi": "Bệnh vi khuẩn dạng sợi",
+    "applicable_species": ["Tôm thẻ chân trắng", "Tôm sú", "Tôm càng xanh"],
+    "symptom_weights": {
+      "mang vang": 0.30,
+      "mang ban": 0.25,
+      "kho lot xac": 0.20,
+      "boi lo do": 0.15
+    },
+    "water_conditions": {
+      "high_organic_matter": 0.10,
+      "low_DO": 0.05
+    },
+    "weather_conditions": {
+      "prolonged_heat_or_heavy_rain": 0.05
+    },
+    "base_threshold": 0.45,
+    "treatment": "Dùng hóa chất diệt khuẩn nhẹ hoặc hợp chất chelat đồng xử lý vi khuẩn dạng sợi bám mang, tăng oxy hòa tan và thay nước làm sạch môi trường ao."
+  },
+  {
+    "id": "R04",
+    "disease": "Infection with vibrio",
+    "disease_vi": "Bệnh nhiễm khuẩn Vibrio",
+    "applicable_species": ["Tôm thẻ chân trắng", "Tôm sú", "Tôm càng xanh"],
+    "symptom_weights": {
+      "do than": 0.30,
+      "mon duoi": 0.25,
+      "gan teo": 0.20,
+      "bo an": 0.15
+    },
+    "water_conditions": {
+      "high_NH3_NO2": 0.05,
+      "high_temperature": 0.05
+    },
+    "weather_conditions": {
+      "temperature_change": 0.05
+    },
+    "base_threshold": 0.40,
+    "treatment": "Sát trùng nguồn nước ao nuôi bằng dung dịch diệt khuẩn chuyên dụng. Cấy lại hệ vi sinh có lợi sau 48 giờ và bổ sung Beta-glucan tăng đề kháng."
+  },
+  {
+    "id": "R05",
+    "disease": "Infectious myonecrosis",
+    "disease_vi": "Bệnh hoại tử cơ (IMNV) / Đục cơ",
+    "applicable_species": ["Tôm thẻ chân trắng", "Tôm sú", "Tôm càng xanh"],
+    "symptom_weights": {
+      "duc co": 0.40,
+      "trang duc o phan duoi": 0.30,
+      "cong than": 0.15,
+      "chet rai rac": 0.10
+    },
+    "water_conditions": {
+      "low_DO": 0.05,
+      "high_temperature": 0.05
+    },
+    "weather_conditions": {
+      "temperature_change": 0.05
+    },
+    "base_threshold": 0.45,
+    "treatment": "Giữ ổn định môi trường ao, tránh gây sốc nhiệt/sốc độ mặn. Tăng sục khí oxy đáy ao, bổ sung vitamin C và khoáng tạt để hỗ trợ tôm phục hồi."
+  },
+  {
+    "id": "R06",
+    "disease": "Loose shell",
+    "disease_vi": "Bệnh mềm vỏ / ốp vỏ",
+    "applicable_species": ["Tôm thẻ chân trắng", "Tôm sú", "Tôm càng xanh"],
+    "symptom_weights": {
+      "vo mem": 0.40,
+      "op than": 0.25,
+      "nhan nheo": 0.20,
+      "cham lon": 0.10
+    },
+    "water_conditions": {
+      "abnormal_pH": 0.05,
+      "low_salinity": 0.05
+    },
+    "weather_conditions": {
+      "prolonged_heat_or_heavy_rain": 0.05
+    },
+    "base_threshold": 0.45,
+    "treatment": "Đánh khoáng đa vi lượng (Canxi, Magie, Kali) để kích thích cứng vỏ. Kiểm tra độ kiềm (duy trì > 120 mg/L) và tăng cường dinh dưỡng trong khẩu phần ăn."
+  },
+  {
+    "id": "R07",
+    "disease": "Luminous bacteria disease",
+    "disease_vi": "Bệnh phát sáng do vi khuẩn",
+    "applicable_species": ["Tôm thẻ chân trắng", "Tôm sú"],
+    "symptom_weights": {
+      "phat sang trong bong toi": 0.50,
+      "bo an": 0.20,
+      "gan teo": 0.15,
+      "ruot trong": 0.10
+    },
+    "water_conditions": {
+      "high_temperature": 0.05,
+      "high_salinity": 0.05
+    },
+    "weather_conditions": {
+      "prolonged_heat_or_heavy_rain": 0.05
+    },
+    "base_threshold": 0.45,
+    "treatment": "Hạ độ mặn nếu có nguồn nước ngọt an toàn. Sử dụng thuốc sát trùng tiêu diệt vi khuẩn phát sáng, sau đó tạt men vi sinh xử lý nước liều cao vào ban đêm."
+  },
+  {
+    "id": "R08",
+    "disease": "Plaque disease in shrimp",
+    "disease_vi": "Bệnh đóng rong / mảng bám trên vỏ",
+    "applicable_species": ["Tôm thẻ chân trắng", "Tôm sú", "Tôm càng xanh"],
+    "symptom_weights": {
+      "dong rong": 0.40,
+      "mang bam tren vo": 0.30,
+      "vo nhot": 0.15,
+      "kho lot xac": 0.10
+    },
+    "water_conditions": {
+      "high_organic_matter": 0.05,
+      "low_DO": 0.05
+    },
+    "weather_conditions": {
+      "prolonged_heat_or_heavy_rain": 0.05
+    },
+    "base_threshold": 0.45,
+    "treatment": "Xi-phông đáy ao, thay bớt nước đáy, kích thích tôm lột xác bằng cách tạt khoáng và bổ sung dinh dưỡng; sử dụng enzyme xử lý nước nhớt."
+  },
+  {
+    "id": "R09",
+    "disease": "Taura",
+    "disease_vi": "Hội chứng Taura (Hội chứng đỏ đuôi)",
+    "applicable_species": ["Tôm thẻ chân trắng"],
+    "symptom_weights": {
+      "do duoi": 0.35,
+      "duoi sung do": 0.25,
+      "vo mem khi lot": 0.20,
+      "chet khi lot xac": 0.15
+    },
+    "water_conditions": {
+      "low_DO": 0.05,
+      "abnormal_pH": 0.05
+    },
+    "weather_conditions": {
+      "temperature_change": 0.05
+    },
+    "base_threshold": 0.45,
+    "treatment": "Hạn chế can thiệp hóa chất mạnh gây sốc tôm. Duy trì oxy hòa tan cao trên 5 mg/L, giảm lượng cám và bổ sung vitamin C chống stress."
+  },
+  {
+    "id": "R10",
+    "disease": "VitaminC deficiency in shrimp",
+    "disease_vi": "Bệnh thiếu Vitamin C (Bệnh chết đen vỏ lột)",
+    "applicable_species": ["Tôm thẻ chân trắng", "Tôm sú", "Tôm càng xanh"],
+    "symptom_weights": {
+      "den co duoi vo": 0.40,
+      "nut vo": 0.25,
+      "cham lon": 0.20,
+      "giam an": 0.10
+    },
+    "water_conditions": {
+      "abnormal_pH": 0.05
+    },
+    "weather_conditions": {
+      "prolonged_heat_or_heavy_rain": 0.05
+    },
+    "base_threshold": 0.45,
+    "treatment": "Trộn Vitamin C dạng bọc vi nang vào thức ăn liên tục 7-10 ngày, bổ sung thêm khoáng đa vi lượng để cân bằng dinh dưỡng."
+  },
+  {
+    "id": "R11",
+    "disease": "White feces",
+    "disease_vi": "Bệnh phân trắng",
+    "applicable_species": ["Tôm thẻ chân trắng", "Tôm sú", "Tôm càng xanh"],
+    "symptom_weights": {
+      "phan trang": 0.40,
+      "ruot trong": 0.20,
+      "gan teo": 0.15,
+      "mem vo": 0.15,
+      "giam an": 0.05
+    },
+    "water_conditions": {
+      "high_temperature": 0.05,
+      "high_organic_matter": 0.05
+    },
+    "weather_conditions": {
+      "prolonged_heat_or_heavy_rain": 0.05
+    },
+    "base_threshold": 0.45,
+    "treatment": "Giảm ngay lượng thức ăn, ngưng sử dụng thức ăn ẩm mốc. Trộn men vi sinh đường ruột liều cao, acid hữu cơ và thảo dược ức chế vi khuẩn Vibrio vào thức ăn."
+  },
+  {
+    "id": "R12",
+    "disease": "Yellow head",
+    "disease_vi": "Bệnh đầu vàng (YHV)",
+    "applicable_species": ["Tôm thẻ chân trắng", "Tôm sú"],
+    "symptom_weights": {
+      "dau vang": 0.40,
+      "gan tuy vang nhat": 0.25,
+      "an nhieu dot ngot roi bo an": 0.20,
+      "tap bo": 0.10
+    },
+    "water_conditions": {
+      "low_DO": 0.05,
+      "high_temperature": 0.05
+    },
+    "weather_conditions": {
+      "temperature_change": 0.05
+    },
+    "base_threshold": 0.50,
+    "treatment": "Bệnh do virus nguy hiểm: Nếu tôm đạt kích cỡ thu hoạch thì thu ngay. Nếu tôm còn nhỏ, khoanh vùng cách ly khử trùng bằng Chlorine, tuyệt đối không xả nước mang mầm bệnh ra môi trường."
+  },
+  {
+    "id": "R13",
+    "disease": "Streptococcus in Tilapia",
+    "disease_vi": "Bệnh liên cầu khuẩn (Streptococcus) ở cá rô phi",
+    "applicable_species": ["Cá rô phi"],
+    "symptom_weights": {
+      "mat loi": 0.35,
+      "boi xoay tron": 0.25,
+      "xuat huyet mang va vay": 0.20,
+      "truong bung": 0.15
+    },
+    "water_conditions": {
+      "high_temperature": 0.10,
+      "low_DO": 0.05
+    },
+    "weather_conditions": {
+      "prolonged_heat_or_heavy_rain": 0.05
+    },
+    "base_threshold": 0.45,
+    "treatment": "Giảm lượng thức ăn xuống 30-50%. Tăng cường sục khí oxy hòa tan. Dùng kháng sinh đặc trị trộn thức ăn theo đúng liều lượng chỉ dẫn của bác sĩ thú y thủy sản kết hợp bổ sung Vitamin C."
+  },
+  {
+    "id": "R14",
+    "disease": "Edwardsiellosis in Pangasius",
+    "disease_vi": "Bệnh gan thận mủ (Edwardsiella ictaluri) ở cá tra",
+    "applicable_species": ["Cá tra"],
+    "symptom_weights": {
+      "dom trang tren gan than": 0.40,
+      "trang gan, trang mang": 0.25,
+      "bo an, boi lo do": 0.15,
+      "xuat huyet goc vay": 0.10
+    },
+    "water_conditions": {
+      "high_NH3_NO2": 0.10,
+      "high_organic_matter": 0.05
+    },
+    "weather_conditions": {
+      "temperature_change": 0.05
+    },
+    "base_threshold": 0.45,
+    "treatment": "Vớt bỏ cá chết để tránh lây nhiễm. Xử lý diệt khuẩn nguồn nước ao bằng Iodine hoặc thuốc tím. Giảm cho ăn và trộn kháng sinh chuyên trị vi khuẩn Gram âm vào thức ăn liên tục 5-7 ngày."
+  },
+  {
+    "id": "R15",
+    "disease": "Hemorrhage in fish",
+    "disease_vi": "Bệnh xuất huyết / đốm đỏ ở cá",
+    "applicable_species": ["Cá rô phi", "Cá tra"],
+    "symptom_weights": {
+      "xuat huyet toan than": 0.35,
+      "lo loet than": 0.25,
+      "tuot nhot": 0.20,
+      "sung hau mon": 0.15
+    },
+    "water_conditions": {
+      "high_organic_matter": 0.10,
+      "high_NH3_NO2": 0.05
+    },
+    "weather_conditions": {
+      "temperature_change": 0.05
+    },
+    "base_threshold": 0.45,
+    "treatment": "Cải tạo môi trường nước bằng cách thay bớt nước tầng mặt. Khử trùng nước ao nuôi bằng BKC hoặc Doxycycline trộn cho ăn theo phác đồ thú y."
+  }
+]

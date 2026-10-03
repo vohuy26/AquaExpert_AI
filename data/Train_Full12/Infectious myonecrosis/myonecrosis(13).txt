@@ -1,0 +1,1 @@
+ Có 2 trạng_thái co rút : co rút hoàn_toàn và co rút không hoàn_toàn .

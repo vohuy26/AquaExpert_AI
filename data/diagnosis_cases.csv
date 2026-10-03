@@ -1,0 +1,20 @@
+case_id,species,symptoms,water_status,weather,expected_disease
+C01,Tôm thẻ chân trắng,gan teo nhat mau ruot trong bo an,Nguy hại,Nắng nóng gay gắt (>35°C),Acute hepatopancreatic necrosis
+C02,Tôm thẻ chân trắng,tôm bo an bơi lờ đờ gan teo ruột trống,Cảnh báo,Mưa lớn kéo dài (>50mm),Acute hepatopancreatic necrosis
+C03,Tôm sú,mang den mang nau dong rong tho kho khan,Nguy hại,Mưa lớn kéo dài (>50mm),Black gill
+C04,Tôm thẻ chân trắng,mang den kho tho boi tap me,Cảnh báo,Âm u / Thiếu ánh sáng kéo dài,Black gill
+C05,Tôm thẻ chân trắng,mang vang mang ban kho lot xac boi lo do,Cảnh báo,Thời tiết ổn định,Filamentous bacterial
+C06,Tôm sú,do than mon duoi gan teo bo an,Nguy hại,Biến động nhiệt độ mạnh (>4°C),Infection with vibrio
+C07,Cá tra,do than gan teo bo an,Nguy hại,Biến động nhiệt độ mạnh (>4°C),Infection with vibrio
+C08,Tôm thẻ chân trắng,duc co trang duc o phan duoi cong than,Nguy hại,Biến động nhiệt độ mạnh (>4°C),Infectious myonecrosis
+C09,Tôm sú,trang duc o phan duoi cong than chet rai rac,Cảnh báo,Mưa lớn kéo dài (>50mm),Infectious myonecrosis
+C10,Tôm thẻ chân trắng,vo mem op than nhan nheo cham lon,Cảnh báo,Mưa lớn kéo dài (>50mm),Loose shell
+C11,Tôm sú,vo mem op than kho cung vo,Cảnh báo,Mưa lớn kéo dài (>50mm),Loose shell
+C12,Tôm thẻ chân trắng,phat sang trong bong toi bo an gan teo,Nguy hại,Nắng nóng gay gắt (>35°C),Luminous bacteria disease
+C13,Tôm thẻ chân trắng,dong rong mang bam tren vo vo nhot kho lot xac,Cảnh báo,Mưa lớn kéo dài (>50mm),Plaque disease in shrimp
+C14,Tôm thẻ chân trắng,do duoi duoi sung do vo mem khi lot chet khi lot xac,Nguy hại,Biến động nhiệt độ mạnh (>4°C),Taura
+C15,Tôm thẻ chân trắng,den co duoi vo nut vo cham lon giam an,Cảnh báo,Thời tiết ổn định,VitaminC deficiency in shrimp
+C16,Tôm thẻ chân trắng,phan trang ruot trong gan teo mem vo giam an,Cảnh báo,Nắng nóng gay gắt (>35°C),White feces
+C17,Tôm sú,xuat hien soi phan trang ruot trong gan teo,Nguy hại,Nắng nóng gay gắt (>35°C),White feces
+C18,Tôm thẻ chân trắng,dau vang gan tuy vang nhat an nhieu dot ngot roi bo an tap bo,Nguy hại,Biến động nhiệt độ mạnh (>4°C),Yellow head
+C19,Tôm sú,dau vang gan tuy vang nhat tap bo chet hang loat,Nguy hại,Biến động nhiệt độ mạnh (>4°C),Yellow head
